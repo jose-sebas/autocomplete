@@ -1,5 +1,18 @@
 # React + TypeScript + Vite
 
+This small application is a simple autocomplete using just React + Tailwind css, this autocomplete have the basic use cases for example:
+
+- Is a multiple selector
+- If you type something to filter the options, the options style will show you the match word with underline style
+- Allow create new item in case it does not exist in the options list
+- If you are in the selector and press "ctrl + a" the selector will be populated with all options available
+
+Run these commands to locally take a look at the app
+
+- Install `npm install`
+- Run development server `npm run dev`
+- Go to the local link generated to take a look at the app
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
