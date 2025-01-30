@@ -3,8 +3,11 @@
 This small application is a simple autocomplete using just React + Tailwind css, this autocomplete have the basic use cases for example:
 
 - Is a multiple selector
+![Multiple selector](./src/assets/multiple.png)
 - If you type something to filter the options, the options style will show you the match word with underline style
+![Find item](./src/assets/find-item.png)
 - Allow create new item in case it does not exist in the options list
+![New item](./src/assets/new-item.png)
 - If you are in the selector and press "ctrl + a" the selector will be populated with all options available
 
 Run these commands to locally take a look at the app
