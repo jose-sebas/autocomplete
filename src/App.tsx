@@ -1,14 +1,13 @@
 import './App.css'
+import Autocomplete from './components/autocomplete'
 
 function App() {
 
 
   return (
-    <>
-      <h1 className="text-3xl font-bold underline">
-        Hello world!
-      </h1>
-    </>
+    <div className='w-max h-max flex justify-self-center'>
+      <Autocomplete/>
+    </div>
   )
 }
 
